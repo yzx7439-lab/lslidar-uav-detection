@@ -71,6 +71,13 @@ python run_pipeline.py \
 
 当前主流程以控制台调试为主，检测结果已封装为 Python 字典，但尚未实现正式网络协议发送。如需接入其他系统，可在 `run_pipeline.py` 的结果消费循环中增加序列化或发送逻辑。
 
+## 效果演示
+
+- [无人机点云检测演示](demo_videos/uav_detection_demo.mp4)
+- [无人机连续跟踪演示](demo_videos/uav_tracking_demo.mp4)
+
+视频为实际处理效果录屏。GitHub 网页端如不能直接播放，可点击链接下载后查看。
+
 ## 核心文件
 
 - `LSlistener.py`：UDP 接收、帧同步和原始点云解析。

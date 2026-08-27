@@ -26,3 +26,7 @@ config.local.*
 output/
 recordings/
 data/
+
+demo_videos/*
+!demo_videos/uav_detection_demo.mp4
+!demo_videos/uav_tracking_demo.mp4
