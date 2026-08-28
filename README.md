@@ -75,10 +75,19 @@ python run_pipeline.py \
 
 ## 效果演示
 
-- [无人机点云检测演示](demo_videos/uav_detection_demo.mp4)
-- [无人机连续跟踪演示](demo_videos/uav_tracking_demo.mp4)
+### 无人机点云检测
 
-视频为实际处理效果录屏。GitHub 网页端如不能直接播放，可点击链接下载后查看。
+[![无人机点云检测演示](docs/images/uav_detection_demo.gif)](demo_videos/uav_detection_demo.mp4)
+
+[查看高清 MP4](demo_videos/uav_detection_demo.mp4)
+
+### 无人机连续跟踪
+
+[![无人机连续跟踪演示](docs/images/uav_tracking_demo.gif)](demo_videos/uav_tracking_demo.mp4)
+
+[查看高清 MP4](demo_videos/uav_tracking_demo.mp4)
+
+GIF 可在 GitHub 首页直接播放，点击画面可查看或下载高清原视频。
 
 ## 核心文件
 
